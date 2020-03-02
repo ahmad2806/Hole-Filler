@@ -9,11 +9,11 @@ from other pixels that also should have a float value between [0-1].
 
 2 - It also takes connectivity objects which describe a role to determine if a certain
 pixel is considered a neighbor, (as a default, only 4 and 8 connectivity were added),
-but the user can create his own connectivity and pass it to the library to work with.
+but the user can create his connectivity and pass it to the library to work with.
 
 3 - Weight object: this object contains the logic of calculating the value of the hole
 pixels (as default the library uses a default weight which calculate it using euclidean
-distance between two points), but the user can also create his own logic and pass it
+distance between two points), but the user can also create his logic and pass it
 to the library.
 
 4 - Hole value: the user pass to the library the hole value in his image, if he didn’t
@@ -39,10 +39,10 @@ A new program was created to use the library and it contains three main parts. v
 command, and runner.
 
 ```
-1 - View: the program view is a CLI, its job is to get input and show output to user
-using the cout and cin functions, the user can simply replace this CLI view with any
-view he desires, he just have to inherit from the IView class and fill the relative
-functions with his own code.
+1 - View: the program view is a CLI, its job is to get input and show output to the user
+using the Cout and Cin functions, the user can simply replace this CLI view with any
+view he desires, he just has to inherit from the IView class and fill the relative
+functions with his code.
 
 2 - Command: this class contains the logic that the program to work with the library
 and use it to solve the problem that it should solve.
@@ -54,8 +54,8 @@ and z. afterward, the command uses the library to fill that hole and save the re
 the path that used provided.
 
 3 - Runner: this piece combines between command and view, it gets the input from
-the view, and passes it to the command and vice versa, it also contain a command
-storage which has all the commands that was registered to it to work with, and also
+the view, and passes it to the command and vice versa, it also contains a command
+storage which has all the commands that were registered to it to work with, and also
 connectivity storage which contains all the connectivity that he can work with.
 ```
 Users can add new connectivity and commands to the runner class.
