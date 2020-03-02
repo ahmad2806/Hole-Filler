@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fill_hole"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ahmad/Desktop/fill_hole/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ahmad/Desktop/fill_hole/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fill_hole">
+				<Option output="/home/ahmad/Desktop/fill_hole/cmake-build-debug/fill_hole" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ahmad/Desktop/fill_hole/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 fill_hole"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fill_hole/fast">
+				<Option output="/home/ahmad/Desktop/fill_hole/cmake-build-debug/fill_hole" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ahmad/Desktop/fill_hole/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 fill_hole/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ahmad/Desktop/fill_hole/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/ahmad/Desktop/fill_hole/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/command/ICommand.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/command/commandsStore/CommandsStore.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/command/commandsStore/CommandsStore.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/command/fillHoleCommand/FillHoleCommand.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/command/fillHoleCommand/FillHoleCommand.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/exceptions/ExceptionValidator.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/exceptions/ExceptionValidator.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/HoleFillerLib.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/HoleFillerLib.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/connectivity/EightConnectivity.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/connectivity/FourConnectivity.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/connectivity/IPixelConnectivity.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/connectivity/connectivityStore/ConnectivityStore.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/connectivity/connectivityStore/ConnectivityStore.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/weight/IWeight.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/weight/defaultWeight/DefaultWeight.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/fillHoleLibrary/weight/defaultWeight/DefaultWeight.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/includes/imageUtil/ImageUtil.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/includes/imageUtil/ImageUtil.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/main.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/runner/IRunner.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/runner/mainRunner/MainRunner.cpp">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/runner/mainRunner/MainRunner.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/view/IView.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/view/cliView/CliView.h">
+			<Option target="fill_hole"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ahmad/Desktop/fill_hole/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
